@@ -1,57 +1,87 @@
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
     margin: 0;
-    font-family: Georgia, serif;
-    background: #ffffff;
-    color: #0f1950;
+    padding: 0;
 }
-header {
-    background: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #eee;
+
+header, footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-.logo {
-    font-weight: bold;
-    font-size: 1.5rem;
+
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
 }
-nav ul {
+
+h1 {
+    color: #001f3f;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+ul {
     list-style: none;
-    display: flex;
-    gap: 1.5rem;
+    padding: 0;
 }
-nav a {
+
+ul li {
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #001f3f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #001f3f;
+    color: white;
+}
+
+a {
+    color: #0074D9;
     text-decoration: none;
-    color: #0f1950;
-    font-weight: 500;
 }
-.hero {
-    text-align: center;
-    margin-top: 100px;
-}
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
-.hero span {
-    display: block;
-    font-size: 2rem;
-}
-.icons {
+
+form {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin: 3rem auto;
-    flex-wrap: wrap;
-    text-align: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 20px;
 }
-.icon {
-    font-size: 2rem;
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-.icon span {
-    display: block;
-    margin-top: 0.5rem;
-    font-size: 1rem;
+
+form button {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
 }
