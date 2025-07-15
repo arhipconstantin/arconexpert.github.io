@@ -1,90 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Arcon Expert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCON Expert</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Arcon Expert</h1>
-    <p>Contabilitate modernă. Claritate financiară.</p>
-</header>
-<nav>
-    <a href="#ro">RO</a>
-    <a href="#en">EN</a>
-</nav>
-<main>
-    <section id="ro">
-        <h2>Serviciile Noastre</h2>
-        <ul>
-            <li><strong>📂 Documente salvate în cloud</strong><br>Acces permanent în Google Drive.</li>
-            <li><strong>📊 Raportare completă</strong><br>IFPS, CNAS, BASS etc.</li>
-            <li><strong>📈 Optimizare fiscală</strong><br>Legal, eficient, fără riscuri.</li>
-            <li><strong>🛡️ Suport în controale</strong><br>Asistență FISC, CNAS etc.</li>
-            <li><strong>🧾 Fără taxe ascunse</strong><br>Prețuri fixe, lunare.</li>
-        </ul>
+    <header>
+        <nav>
+            <div class="logo">AE</div>
+            <ul>
+                <li><a href="#acasa">Acasă</a></li>
+                <li><a href="#echipa">Echipa Noastră</a></li>
+                <li><a href="#servicii">Serviciile Noastre</a></li>
+                <li><a href="#preturi">Prețuri</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h2>Prețuri</h2>
-        <table>
-            <thead>
-                <tr><th>Pachet</th><th>Preț (MDL/lună)</th><th>Nr. Angajați</th><th>Operațiuni</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>Micro / Start</td><td>2.500–4.000</td><td>1</td><td>max 10</td></tr>
-                <tr><td>Pachet Mic</td><td>4.000–6.000</td><td>1–3</td><td>până la 30</td></tr>
-                <tr><td>Pachet Mediu</td><td>6.000–14.000</td><td>4–10</td><td>30–70</td></tr>
-                <tr><td>Pachet Mare</td><td>14.000–25.000</td><td>10–30</td><td>70–150</td></tr>
-                <tr><td>Pachet Major</td><td>25.000+</td><td>30+</td><td>150+</td></tr>
-            </tbody>
-        </table>
+    <main>
+        <section class="hero" id="acasa">
+            <h1>ARCON <span>Expert</span></h1>
+            <p>Servicii de contabilitate adaptate pentru nevoile afacerii tale</p>
+        </section>
 
-        <h2>Contact</h2>
-        <p>📧 Email: <a href="mailto:contact@arconexpert.com">contact@arconexpert.com</a></p>
-        <form action="https://formspree.io/f/xqkrlpze" method="POST">
-            <input type="text" name="name" placeholder="Numele dvs" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Mesajul dvs" required></textarea>
-            <button type="submit">Trimite</button>
-        </form>
-    </section>
-
-    <section id="en">
-        <h2>Our Services</h2>
-        <ul>
-            <li><strong>📂 Cloud-stored documents</strong><br>Available 24/7 in Google Drive.</li>
-            <li><strong>📊 Full reporting</strong><br>IFPS, CNAS, BASS etc.</li>
-            <li><strong>📈 Legal tax optimization</strong><br>Reduce taxes efficiently and safely.</li>
-            <li><strong>🛡️ Support during audits</strong><br>Representation before FISC, CNAS etc.</li>
-            <li><strong>🧾 No hidden fees</strong><br>Fixed monthly prices.</li>
-        </ul>
-
-        <h2>Pricing</h2>
-        <table>
-            <thead>
-                <tr><th>Package</th><th>Price (MDL/month)</th><th>No. Employees</th><th>Operations</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>Micro / Start</td><td>2.500–4.000</td><td>1</td><td>max 10</td></tr>
-                <tr><td>Small Package</td><td>4.000–6.000</td><td>1–3</td><td>up to 30</td></tr>
-                <tr><td>Medium Package</td><td>6.000–14.000</td><td>4–10</td><td>30–70</td></tr>
-                <tr><td>Large Package</td><td>14.000–25.000</td><td>10–30</td><td>70–150</td></tr>
-                <tr><td>Enterprise</td><td>25.000+</td><td>30+</td><td>150+</td></tr>
-            </tbody>
-        </table>
-
-        <h2>Contact</h2>
-        <p>📧 Email: <a href="mailto:contact@arconexpert.com">contact@arconexpert.com</a></p>
-        <form action="https://formspree.io/f/xqkrlpze" method="POST">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Your message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-</main>
-<footer>
-    <p>© 2025 Arcon Expert. Toate drepturile rezervate.</p>
-</footer>
+        <section class="icons">
+            <a href="#echipa">
+                <div class="icon">👥<br><span>Echipa Noastră</span></div>
+            </a>
+            <a href="#servicii">
+                <div class="icon">📋<br><span>Serviciile Noastre</span></div>
+            </a>
+            <a href="#preturi">
+                <div class="icon">💶<br><span>Prețuri</span></div>
+            </a>
+            <a href="#contact">
+                <div class="icon">✉️<br><span>Contact</span></div>
+            </a>
+        </section>
+    </main>
 </body>
 </html>
